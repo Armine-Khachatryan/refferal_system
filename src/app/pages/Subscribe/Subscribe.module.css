@@ -1,0 +1,116 @@
+/*$white: #fff;*/
+/*$google-blue:*/
+/*$button-active-blue: #1669F2;*/
+
+
+.wholePage{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.googleLoginPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.googleBtn {
+    width: 184px;
+    height: 42px;
+    background-color: #4285f4;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,.25)
+}
+
+.googleIconWrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color:  #fff;
+}
+.googleIcon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+}
+.btnText {
+    float: right;
+    margin: 11px 11px 0 0;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: Roboto_Medium, sans-serif;
+}
+.googleBtn:hover {
+     box-shadow: 0 0 6px  #4285f4;
+ }
+.googleBtn:active {
+    background: #1669F2;
+}
+
+.btnHeader{
+    font-family:Roboto_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.005em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding:10px 16px;
+    margin: 0 4px;
+    background: #CC0000;
+    white-space: nowrap;
+    border: none;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/*.btnHeader{*/
+/*    font-family:Roboto_Medium, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    font-size: 14px;*/
+/*    line-height: 16px;*/
+/*    letter-spacing: 0.005em;*/
+/*    text-transform: uppercase;*/
+/*    color: #FFFFFF;*/
+/*    padding:10px 16px;*/
+/*    margin: 0 4px;*/
+/*    background: #CC0000;*/
+/*    white-space: nowrap;*/
+/*    border: none;*/
+/*    border-radius: 2px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.textDiv{
+    font-family: Cyntho_Next_Semi_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2B2732;
+    display: flex;
+    align-self: center;
+   justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

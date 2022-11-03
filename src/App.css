@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialIcons{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none
+}
+
+
+.container{
+  max-width: 1520px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.title{
+  font-family: Cyntho_Next_Semi_Bold, sans-serif;
+  font-style:normal;
+  font-weight:bolder;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: 0.04em;
+  color:black
+}
+
+.center{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.pinkButton{
+  margin-top: 50px;
+  min-width: 300px;
+  background: linear-gradient(92.02deg, #FBA0AA 21.7%, rgba(251, 160, 170, 0) 122.32%);
+  max-width: 255px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 9px 20px;
+  font-family:Cyntho_Next_Medium, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid black;
+}
+
+.heartImg{
+  margin-left: 10px;
+}
+
+
+.blackLine{
+  width: 240px;
+  height: 4px;
+  background-color:#333333;
+  margin-bottom: 12px;
+  margin-top: 100px;
+}
+
+.yellowLine{
+  width: 120px;
+  height: 4px;
+  background: linear-gradient(0deg, #FFD074, #FFD074);
+  border-radius: 360px;
+  transform: rotate(-180deg);
+}
+
+.linesDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.blackLineNext{
+  text-align: end;
+  width: 240px;
+  height: 4px;
+  background-color:#333333;
+  margin-top: 12px;
+}
+
+.blackDashed{
+  border-bottom: 2px dashed black;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+  .title{
+    font-size: 40px;
+  }
+}
+
+
+@media only screen and (min-width:500px) and (max-width: 768px) {
+  .title{
+    font-size: 34px;
+    /*white-space: nowrap;*/
+  }
+}
+
+
+@media only screen  and (max-width: 768px) {
+  .flex{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:425px)  {
+  .title{
+    font-size: 34px;
+  }
+}
+
+@font-face {
+  font-family: Cyntho_Next_Bold;
+  src: url(app/assets/fonts/CynthoNext/Cyntho_Next_Bold.otf);
+}
+
+
+@font-face {
+  font-family: Cyntho_Next_Semi_Bold;
+  src: url(app/assets/fonts/CynthoNext/Cyntho_Next_Semi_Bold.otf);
+}
+
+@font-face {
+  font-family: Cyntho_Next_Light;
+  src: url(app/assets/fonts/CynthoNext/Cyntho_Next_Light.otf);
+}
+
+@font-face {
+  font-family: Cyntho_Next_Bold;
+  src: url(app/assets/fonts/CynthoNext/Cyntho_Next_Medium.otf);
+}
+
+
+@font-face {
+  font-family: Cyntho_Next_Regular;
+  src: url(app/assets/fonts/CynthoNext/Cyntho_Next_Regular.otf);
+}
+
+@font-face {
+  font-family: Roboto_Medium;
+  src: url(app/assets/fonts/Roboto/Roboto_Medium.ttf);
+}
+

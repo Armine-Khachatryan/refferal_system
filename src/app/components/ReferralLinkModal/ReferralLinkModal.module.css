@@ -1,0 +1,123 @@
+.referralWhole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.referralUpPart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom:  1px solid #B3B3B3;
+    margin-bottom: 100px;
+}
+
+.refLink{
+    font-family: Cyntho_Next_Meidum, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.closePart{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.referralSecondWhole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.below{
+    width: 100%;
+}
+.belowPart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.linkReferral{
+    max-width: 380px;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    border:  1px solid #999999;
+    border-radius: 4px;
+    margin-right: 4px;
+    background-color: white;
+    color: #2B2732;
+}
+
+.linkReferral:focus{
+    border:  1px solid #999999;
+    outline: none;
+}
+
+.linkReferral::placeholder{
+    font-family: Cyntho_Next_Meidum, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.copyBtn{
+    max-width: 112px;
+    width: 100%;
+    background: #FFAB06;
+    border-radius: 4px;
+    font-family: Cyntho_Next_Meidum, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    position: relative;
+    border: none;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    padding-left: 20px;
+
+}
+
+.copyImg{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 8%;
+    bottom: 20%;
+}
+
+.copiedText{
+    font-family: Cyntho_Next_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+    text-align: center;
+}
+
+@media only screen  and (max-width: 1024px) {
+    .copyBtn{
+        font-size: 16px
+    }
+}
+
+
+

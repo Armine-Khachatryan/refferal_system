@@ -1,0 +1,39 @@
+.wholePg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titlePart{
+    font-family: Cyntho_Next_Semi_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 72px;
+    letter-spacing: 0.04em;
+    color: #2B2732;
+}
+
+.textPart{
+    font-family: Cyntho_Next_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4D4D4D;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.list{
+    font-family: Cyntho_Next_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4D4D4D;
+    width: 100%;
+    margin-bottom: 15px;
+}
+

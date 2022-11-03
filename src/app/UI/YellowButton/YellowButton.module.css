@@ -1,0 +1,28 @@
+.yellowButton{
+    max-width: 355px;
+    width: 100%;
+    background: #FFAB06;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family:Cyntho_Next_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding-bottom: 9px;
+    padding-top: 9px;
+    border: none;
+    margin-bottom: 8px;
+}
+
+.yellowButton:hover{
+    background:linear-gradient(92.55deg, rgba(96, 96, 96, 0.8) 32.26%, rgba(255, 208, 116, 0.8) 106.27%);
+}
+
+.yellowButton:disabled{
+    cursor: not-allowed;
+}

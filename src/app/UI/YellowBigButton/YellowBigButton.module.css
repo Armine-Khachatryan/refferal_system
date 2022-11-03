@@ -1,0 +1,25 @@
+.yellowBigButton{
+    max-width: 496px;
+    width: 100%;
+    background:  #FFAB06;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family:Cyntho_Next_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border: none;
+}
+
+
+.yellowBigButton:disabled{
+    cursor: not-allowed;
+    background: #B3B3B3;
+}

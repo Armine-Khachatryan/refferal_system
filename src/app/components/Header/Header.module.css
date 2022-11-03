@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 11px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #333333;
+}
+
+.logo{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+
+.headerMediumPart{
+    display: flex;
+    align-items: center;
+}
+
+.lastPart{
+    font-family: Cyntho_Next_Semi_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #2B2732;
+    cursor: pointer;
+}
+
+.lastDiv{
+    display: flex;
+    align-items: center;
+}
+
+.instagramYoutube{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.instagramYoutubeImg{
+    margin-right: 1px;
+}
+
+
+
+@media only screen and (max-width:550px) {
+    .header{
+        flex-direction: column;
+    }
+    .headerMediumPart{
+        margin-bottom: 10px;
+    }
+}
+
+
+

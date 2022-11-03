@@ -1,0 +1,132 @@
+.fourthPartWhole{
+    display: flex;
+    padding-top: 100px;
+    background-color:#FFFEDB;
+    padding-bottom: 200px;
+}
+
+.fourthPart1{
+    padding-left: 100px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.heartImg{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.fourthPartText{
+    max-width: 400px;
+    margin-top: 40px;
+    font-family: Cyntho_Next_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    color: black;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.fourthPartBoldText{
+    max-width: 400px;
+    font-family: Cyntho_Next_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: black;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.fourthPart2{
+    display: flex;
+    padding-right: 200px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.prizesWhole{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.prizeImg{
+    margin-right: 10px;
+    width: 134px;
+    height: 134px;
+}
+.prizeTexts{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.prizeBoldText{
+    font-family: Cyntho_Next_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    color: black;
+}
+
+.prizeText{
+    font-family: Cyntho_Next_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: black;
+    width: 240px;
+}
+
+
+@media only screen  and (max-width: 1024px) {
+
+    .fourthPart1{
+        padding-left: 15px;
+        width: 45%;
+        margin-right: 20px;
+    }
+    .fourthPart2{
+        padding-right: 15px;
+    }
+    .textHomeSecondPartDiv{
+        font-size: 18px;
+    }
+}
+
+@media only screen  and (max-width: 768px) {
+  .prizesWhole{
+      margin-top: 50px;
+  }
+}
+
+
+@media only screen  and (max-width: 600px) {
+    .prizesWhole{
+       flex-direction: column;
+    }
+
+    .fourthPart1{
+        width: 100%;
+    }
+}
+
+
+@media only screen  and (max-width: 425px) {
+    .prizesWhole{
+       flex-direction: column;
+    }
+}
+
+
+
+
+
